@@ -1,0 +1,15 @@
+<div class="row">
+    <nav class="hidden-xs-down bg-faded sidebar">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <img class="nav-link logo" src="assets/logo.png"/>
+          </li>
+          <li class="nav-item" [class.active]="currentUrl == '/' ">
+            <a class="nav-link " routerLink="/">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [class.active]="currentUrl == 'calendar'" routerLink="/calendar">Calendar</a>
+          </li>
+        </ul>
+      </nav>
+</div>
