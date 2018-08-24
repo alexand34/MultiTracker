@@ -1,6 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTracker", "MultiTracker\MultiTracker.csproj", "{97E3A1DE-64DD-4E16-B08E-4B6F5B5A1C72}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTracker", "MultiTracker\MultiTracker.csproj", "{97E3A1DE-64DD-4E16-B08E-4B6F5B5A1C72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTracker.Data", "MultiTracker.Data\MultiTracker.Data.csproj", "{E89280E8-5A34-4D9B-8B0B-2AEE32512B9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTracker.Services", "MultiTracker.Services\MultiTracker.Services.csproj", "{003C7CBE-4F54-4435-9266-2E76F287EAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +19,19 @@ Global
 		{97E3A1DE-64DD-4E16-B08E-4B6F5B5A1C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E3A1DE-64DD-4E16-B08E-4B6F5B5A1C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E3A1DE-64DD-4E16-B08E-4B6F5B5A1C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89280E8-5A34-4D9B-8B0B-2AEE32512B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89280E8-5A34-4D9B-8B0B-2AEE32512B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89280E8-5A34-4D9B-8B0B-2AEE32512B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89280E8-5A34-4D9B-8B0B-2AEE32512B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003C7CBE-4F54-4435-9266-2E76F287EAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003C7CBE-4F54-4435-9266-2E76F287EAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003C7CBE-4F54-4435-9266-2E76F287EAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003C7CBE-4F54-4435-9266-2E76F287EAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {706394A5-78A9-4404-B6EC-149F573724E3}
 	EndGlobalSection
 EndGlobal
